@@ -9,22 +9,14 @@
 
 import math
 
-a = 123;
-
-b = 12.123;
-
+a = 123
+b = 12.123
 d= a+b
-
-c = "Estou praticando tipagem";
-e = "Agora";
-
-f = c+e
-
+c = "Estou praticando tipagem"
+e = "Agora"
+f = c + e
 teste = False
-teste2 = False
-
-Pi = math.pi
-
+life_of_pi = math.pi
 
 if teste==True:
     print('teste bobo')
@@ -33,22 +25,20 @@ elif(teste==False):
     print('teste bobo faslo')
 
 else:
-    print(Pi)
+    print(life_of_pi)
 
+print("A soma de a+b é igual a:", a+b)
+print("A tipagem de a é:", type(a))
+print("A tipagem de b é:", type(b))
+print("A tipagem de c é:", type(c))
+print("A tipagem de d é:", type(d))
 
-print("A soma de a+b é igual a:", a+b);
-print("A tipagem de a é:", type(a));
-print("A tipagem de b é:", type(b));
-print("A tipagem de c é:", type(c));
-print("A tipagem de d é:", type(d));
+print(f)
+print("A tipagem de f é:", type(f))
 
-print(f);
-print("A tipagem de f é:", type(f));
-
-# coerção ou conversão
+# Coerção ou conversão
 
 Conv = str(teste)
 print(type(Conv), Conv)
 
-
-
+print(bool(c))
