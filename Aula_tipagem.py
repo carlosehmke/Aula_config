@@ -42,3 +42,5 @@ Conv = str(teste)
 print(type(Conv), Conv)
 
 print(bool(c))
+
+print('Alteração para realizar o merge diretamente no pelo Git sem ter que usar o Pull request e merge')
