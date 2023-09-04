@@ -14,3 +14,11 @@ print(r"Ele falou \"Olá mundo\" outro dia")
 
 
 print('Ele falou \"Olá mundo\" outro dia')
+
+
+concatenacao = "Teste"*3
+print(concatenacao)
+
+
+a = 5**2
+print(a)
